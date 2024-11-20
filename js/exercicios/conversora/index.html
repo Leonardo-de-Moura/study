@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.jpg" type="image/x-icon">
+
+</head>
+
+<body>
+    <div><!--mother-div-->
+        <h1>conversão</h1><!--titulo principal-->
+        <p>celsius</p><!--titulo do input-->
+        <input type="number" id="celsius" placeholder="digite um numero..."><!--caixa de input-->
+        <button onclick="conversao()">converter</button> <!-- botao com o evento onclick que invoca função de conversão-->
+        <div id="divresultado"> <!-- div reservada para exibir o resultado da conversão-->
+            <p id="head-resultado">resultado</p> <!--titulo do resultado-->
+            <p id="resultado"></p> <!--elemento que terá o id puxado e exibira o resultado da função conversão-->
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

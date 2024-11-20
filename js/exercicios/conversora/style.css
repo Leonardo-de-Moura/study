@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*importaçao de fontes via google fontes (FONTE IMPORTADA" KANIT")*/
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}/*seletor global que define estilos para todo o documento html*/
+
+body {
+    background-color: rgb(204, 0, 255);
+}/*seletor body que define a cor da pagina*/
+div {
+    background-color: rgb(54, 46, 46);
+    width: 700px;
+    height: 500px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+    transform: translateY(15vh);
+}/*seletor para a div mãe*/
+h1 {
+    padding: 20px;
+    text-shadow: 2px solid black;
+    font-family: kanit;
+}/*seletor para o titulo principal conversão*/
+
+p {
+    padding: 10px;
+    font-family: kanit;
+}/*seletor para o titulo do input com nome celsius*/
+
+input{
+    border-radius: 15px;
+    height: 30px;
+    text-align: center;
+}/*seletor para o input*/
+
+button {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(212, 6, 240);
+    display: block;
+    margin: auto;
+    transform: translateY(50px);
+    border-radius: 15px;
+    font-family: kanit;
+}/*seletor para o button*/
+
+#divresultado {
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    color: black;
+    font-weight: bold;
+    display: block;
+}/*seletor para o espaço div em que será mostrado o resultado*/
+#head-resultado {
+    transform: translateY(-40px);
+    color: white;
+    font-weight: normal;
+} /*titulo do campo de resultado*/
+
+#resultado {
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    transform: translateY(-58px);
+}/*campo de resultado*/
