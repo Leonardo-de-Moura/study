@@ -31,23 +31,15 @@ O objetivo é manter um registro do meu progresso, aprender novos conceitos e pr
 
 ## 🛠️ Tecnologias e Ferramentas
 
-- **JavaScript:** 
-- **Python:** 
-- **C:**
+- **JavaScript** 
+- **Python** 
+- **C**
 
 # 📚 Repositório de Estudos
 
 Bem-vindo(a) ao meu repositório de estudos! Aqui estão organizados exercícios, projetos e anotações relacionados às linguagens **JavaScript**, **Python** e **C**. 
 O objetivo é manter um registro do meu progresso, aprender novos conceitos e praticar de forma contínua.
 
----
-
-
-## 🛠️ Tecnologias e Ferramentas
-
-- **JavaScript** 
-- **Python** 
-- **C**
 ---
 ## 📂 Estrutura do Repositório
 
