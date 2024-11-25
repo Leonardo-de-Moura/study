@@ -1,12 +1,12 @@
 /*var hora = new Date().getHours();
 alert(hora);
-if(hora<12){
+if (hora < 12) {
     alert('bom dia')
 }
-else if (hora<18){
+else if (hora < 18) {
     alert('boa tarde')
 }
-else{
+else {
     alert('boa noite')
 }*/
 function verificar() {
@@ -17,7 +17,7 @@ function verificar() {
         p.style.color = "red";
 
     }
-    else{
+    else {
         let p = document.getElementById('teste')
         p.innerHTML = "parabens, tudo certo";
         p.style.color = "green";
